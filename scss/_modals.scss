@@ -1,0 +1,18 @@
+//Background color
+$modal-content-bg:#303030;
+
+//Color y opacidad del fondo
+$modal-backdrop-bg: darken($primary,20%);
+$modal-backdrop-opacity:0.5;
+
+//Color de bordes
+$modal-header-border-color:$primary;
+$modal-footer-border-color:$primary;
+$modal-content-border-color: $primary;
+
+//Tamaño de bordes
+$modal-header-border-width: 3px;
+$modal-footer-border-width:3px;
+
+//Aspa para cerrar
+$close-color:white;

@@ -1,0 +1,15 @@
+$card-cap-bg:#444 ;
+$card-bg:#303030 ;
+
+
+.card-body{
+    transition: all 0.4s ease-in;
+    &:hover{
+        background-color:#303030 ;
+        transform: translateY(-5rem);
+        -webkit-transform: translateY(-5rem);
+        -moz-transform: translateY(-5rem);
+        -ms-transform: translateY(-5rem);
+        -o-transform: translateY(-5rem);
+}
+}

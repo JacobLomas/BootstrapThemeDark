@@ -1,0 +1,19 @@
+$nav-link-padding-x:2rem;
+$nav-tabs-border-color:#444;
+
+.nav-item{
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+
+    /*  */
+    &:hover, &.nav-link:focus{
+        background-color: darken($primary, 5%) !important;
+    }
+    &.active{
+        background-color: lighten($primary, 10%);
+        color: white;
+    }
+}
